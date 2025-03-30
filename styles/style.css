@@ -1,0 +1,84 @@
+body{
+    background-color: #d6d0d0c9;
+    color: #000000 ;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    width: 1440px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: orange;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+header h1{
+    font-size: 60px;
+}
+nav{
+    width: 100%;
+    background-color: darkslategray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+nav a{
+    color: orange;
+    background-color: rgb(27, 46, 46);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.double{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.left{
+    text-align: justify;
+    padding: 15px;
+    width: 400px;
+}
+
+.gallery, .gallery2{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.item strong{
+    display: block;
+}
+
+.item{
+    width: 280px;
+}
+
+.gallery2 .item{
+    width: 30%;
+}
+
+.left{
+    color: black;
+}
